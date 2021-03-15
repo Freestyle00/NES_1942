@@ -1,0 +1,42 @@
+{
+  "EntityManagementValueList": [
+    {
+      "Name": "Entities\\enemy_planes",
+      "SelectedProperties": [],
+      "InstanceManagementValuesList": [
+        {
+          "SelectedProperties": [],
+          "Name": "SpriteInstance"
+        },
+        {
+          "SelectedProperties": [],
+          "Name": "AxisAlignedRectangleInstance"
+        }
+      ]
+    },
+    {
+      "Name": "Entities\\PlayerPlane",
+      "SelectedProperties": [],
+      "InstanceManagementValuesList": [
+        {
+          "SelectedProperties": [],
+          "Name": "SpriteInstance"
+        },
+        {
+          "SelectedProperties": [],
+          "Name": "AxisAlignedRectangleInstance"
+        }
+      ]
+    },
+    {
+      "Name": "Entities\\Borders_left_right",
+      "SelectedProperties": [],
+      "InstanceManagementValuesList": [
+        {
+          "SelectedProperties": [],
+          "Name": "AxisAlignedRectangleInstance"
+        }
+      ]
+    }
+  ]
+}

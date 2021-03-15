@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationChainArraySave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileRelativeTextures>true</FileRelativeTextures>
+  <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
+  <CoordinateType>Pixel</CoordinateType>
+  <AnimationChain>
+    <Name>bullet</Name>
+    <Frame>
+      <TextureName>plane_sprites.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>123</LeftCoordinate>
+      <RightCoordinate>127</RightCoordinate>
+      <TopCoordinate>90</TopCoordinate>
+      <BottomCoordinate>94</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>plane_sprites.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>129</LeftCoordinate>
+      <RightCoordinate>133</RightCoordinate>
+      <TopCoordinate>90</TopCoordinate>
+      <BottomCoordinate>94</BottomCoordinate>
+    </Frame>
+  </AnimationChain>
+</AnimationChainArraySave>

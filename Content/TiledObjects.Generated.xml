@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objecttypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objecttype name="BOOOM" />
+  <objecttype name="Border_Down" />
+  <objecttype name="Border_up" />
+  <objecttype name="Borders_left_right" />
+  <objecttype name="Bullet" />
+  <objecttype name="bullet_catchers" />
+  <objecttype name="enemy_bullet" />
+  <objecttype name="enemy_planes" />
+  <objecttype name="More_Bullet_catchers" />
+  <objecttype name="PlayerPlane">
+    <property name="SpriteInstanceX" type="float" default="0" />
+    <property name="SpriteInstanceY" type="float" default="0" />
+  </objecttype>
+  <objecttype name="Scores" />
+</objecttypes>
