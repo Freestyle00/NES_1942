@@ -108,6 +108,7 @@ namespace NES_1942.Screens
         }
         void pausescreen()
         {
+            var pausetext = 
             if (InputManager.Keyboard.KeyPushed(Microsoft.Xna.Framework.Input.Keys.P))
             {
                 if (this.IsPaused)
@@ -118,6 +119,14 @@ namespace NES_1942.Screens
                 {
                     PauseThisScreen();
                 }
+            }
+            if (this.IsPaused == false)
+            {
+                
+            }
+            if (this.IsPaused)
+            {
+
             }
         }
         double lastspawn = 0;
