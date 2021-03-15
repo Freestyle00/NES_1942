@@ -108,7 +108,7 @@ namespace NES_1942.Screens
         }
         void pausescreen()
         {
-            var pausetext = 
+            var pausetext = "shutup";
             if (InputManager.Keyboard.KeyPushed(Microsoft.Xna.Framework.Input.Keys.P))
             {
                 if (this.IsPaused)
