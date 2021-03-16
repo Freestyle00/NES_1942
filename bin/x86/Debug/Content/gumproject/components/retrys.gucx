@@ -50,13 +50,13 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance.X</Name>
-      <Value xsi:type="xsd:float">-28</Value>
+      <Value xsi:type="xsd:float">-27</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance.Y</Name>
-      <Value xsi:type="xsd:float">-12</Value>
+      <Value xsi:type="xsd:float">-6</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -111,7 +111,7 @@
     <Variable>
       <Type>float</Type>
       <Name>TextInstance.Y</Name>
-      <Value xsi:type="xsd:float">384</Value>
+      <Value xsi:type="xsd:float">383</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
