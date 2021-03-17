@@ -19,18 +19,37 @@ namespace NES_1942.Entities
         /// This method is called when the Entity is added to managers. Entities which are instantiated but not
         /// added to managers will not have this method called.
         /// </summary>
-        
+        float rads;
         private void CustomInitialize()
         {
-
+            rads = MathHelper.ToRadians(100);
+            this.RotationZ = MathHelper.ToRadians(rads);
         }
         private void CustomActivity()
         {
+            var cx = (float)Math.Cos(rads);
+            var cy = (float)Math.Sin(rads);
 
+            var direction = new Vector3(cx, cy, 0);
+
+            var speed = 100;
+
+            var combined = direction * speed;
+
+            this.Velocity = combined;
+
+            var pixelsPerSecond = this.Velocity.Length();
+
+            string debugginInfo = $"Player Velocity:{this.Velocity}" +
+
+                $"\nPlayer Velocity Pixels/Second:{pixelsPerSecond}" +
+
+                $"\nPlayer Right:{this.RotationMatrix.Right}";
+
+            FlatRedBall.Debugging.Debugger.Write(debugginInfo);
         }
         private void CustomDestroy()
         {
-
 
         }
         private static void CustomLoadStaticContent(string contentManagerName)

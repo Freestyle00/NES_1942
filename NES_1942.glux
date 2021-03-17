@@ -2716,8 +2716,8 @@
     <AllowWindowResizing>true</AllowWindowResizing>
     <Scale>100</Scale>
     <ScaleGum>100</ScaleGum>
-    <ResizeBehavior>StretchVisibleArea</ResizeBehavior>
-    <ResizeBehaviorGum>StretchVisibleArea</ResizeBehaviorGum>
+    <ResizeBehavior>IncreaseVisibleArea</ResizeBehavior>
+    <ResizeBehaviorGum>IncreaseVisibleArea</ResizeBehaviorGum>
     <DominantInternalCoordinates>Height</DominantInternalCoordinates>
   </DisplaySettings>
   <AllDisplaySettings />

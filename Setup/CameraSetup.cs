@@ -38,9 +38,9 @@
                 Is2D = true,
                 IsFullScreen = false,
                 AllowWidowResizing = true,
-                ResizeBehavior = ResizeBehavior.StretchVisibleArea,
+                ResizeBehavior = ResizeBehavior.IncreaseVisibleArea,
                 ScaleGum = 100f,
-                ResizeBehaviorGum = ResizeBehavior.StretchVisibleArea,
+                ResizeBehaviorGum = ResizeBehavior.IncreaseVisibleArea,
                 DominantInternalCoordinates = WidthOrHeight.Height,
             }
             ;

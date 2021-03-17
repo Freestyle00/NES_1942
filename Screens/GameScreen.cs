@@ -28,6 +28,7 @@ namespace NES_1942.Screens
                 Enemyspawn(); 
                 Enemyplanesshootingattheplayer();
                 Shooting();
+                planerotation();
             }
             pausescreen();
             var gumTextObject = HUD.GetGraphicalUiElementByName("ScoreCounterInstance") as NES_1942.GumRuntimes.ScoreCounterRuntime;
@@ -42,6 +43,10 @@ namespace NES_1942.Screens
         static void CustomLoadStaticContent(string contentManagerName)
         {
 
+        }
+        void planerotation()
+        {
+             
         }
         void Shooting()
         {
@@ -92,14 +97,13 @@ namespace NES_1942.Screens
                 NES_1942.Entities.enemy_planes newenemy = enemy_planesFactory.CreateNew();
                 newenemy.X = 100;
                 newenemy.Y = 450;
-                newenemy.Velocity.Y = -150;
             }
             if (lastspawn <= 0)
             {
                 NES_1942.Entities.enemy_planes newenemy = enemy_planesFactory.CreateNew();
                 newenemy.X = -100;
                 newenemy.Y = 450;
-                newenemy.Velocity.Y = -150;
+                //newenemy.Velocity.Y = -150;
             }
             if (lastspawn <= 0)
             {
