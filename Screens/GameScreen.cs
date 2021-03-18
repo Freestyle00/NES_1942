@@ -95,15 +95,16 @@ namespace NES_1942.Screens
             if (lastspawn <= 0)
             {
                 NES_1942.Entities.enemy_planes newenemy = enemy_planesFactory.CreateNew();
-                newenemy.X = 100;
+                newenemy.X = 80;
                 newenemy.Y = 450;
+                newenemy.Velocity.Y = -150;
             }
             if (lastspawn <= 0)
             {
                 NES_1942.Entities.enemy_planes newenemy = enemy_planesFactory.CreateNew();
-                newenemy.X = -100;
+                newenemy.X = -120;
                 newenemy.Y = 450;
-                //newenemy.Velocity.Y = -150;
+                newenemy.Velocity.Y = -150;
             }
             if (lastspawn <= 0)
             {
